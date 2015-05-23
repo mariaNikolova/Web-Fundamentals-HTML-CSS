@@ -1,0 +1,171 @@
+html, div, h1, input {
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+html {
+    font-family: "Tahoma", San-serif;
+    font-size: 100%;
+}
+div{
+	width:700px ; 
+	height: 250px ;
+}
+.border {
+    border-top:dotted 4px  #FFFF00;
+	border-left:dashed 4px #FF0000; 
+	border-bottom: double 4px #0000FF;
+	border-right: solid 8px #008000;
+}
+div h1{
+	font-size: 3rem ;
+	text-shadow: 1rem 1rem 0.6rem rgba(0, 0, 0, 0.4);
+	text-align:center ;
+	margin-bottom: 1.8rem;
+}
+.red{
+	border-color: red ;
+	border-radius: 80px ;
+	border-style: solid;
+	border-width: 3px;
+	display: inline-block;
+	box-sizing: border-box;
+	height: 120px;
+	width: 571px ;
+	
+	margin-left: 0px;
+}
+.yellow{
+	border-color: yellow ;
+	border-radius: 70px ;
+	border-style: solid;
+	border-width: 5px;
+	display: inline-block;
+	box-sizing: border-box;
+	height: 130px;
+	width: 582px ;
+	margin-left: 0px;
+}
+.green{
+	border-color: green ;
+	border-radius: 110px ;
+	border-style: solid;
+	border-width: 5px;
+	display: inline-block;
+	box-sizing: border-box;
+	height: 140px;
+	width: 590px ;
+	margin-left: 0px;
+}
+.blue{
+	border-color: blue ;
+	border-radius: 80px ;
+	border-style: solid;
+	border-width: 5px;
+	display: inline-block;
+	box-sizing: border-box;
+	height: 150px;
+	width: 600px ;
+	margin-left: 55px;
+}
+.red div{
+	font-size: 1.5rem ;
+	text-shadow: 0.5rem 0.8rem 0.8rem rgba(0, 0, 0, 0.35);
+	margin-top: 10px ;
+	margin-left: 70px ;
+	margin-right: 30px ;
+}
+.button {
+  padding-bottom:5px ;
+  margin-top:30px ;
+  width: 210px;
+  font-size: 15px;
+  font-weight: bold;
+  background: #D8921A;
+  border-top: 3px solid #EC9C0D;
+  border-left: 3px solid #EC9C0D;
+  border-bottom: 3px solid #AD7206;
+  border-right: 3px solid #AD7206;
+}
+#small-bubble {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	background: rgba(104,104,104,0.7);
+	border-radius: 60%;
+	top: -75px;
+	left: 330px;
+	border: 2px dashed;
+	border-color: rgba(104,104,104,0.1);
+}
+
+#middle-bubble {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	background: rgba(104,104,104,0.7);
+	border-radius: 50%;
+	top: -170px;
+	left: 370px;
+	border: 4px dashed;
+	border-color: rgba(104,104,104,0.1);
+
+}
+
+.border:before {
+	content: " ";
+	position: absolute;
+	border: 4px dashed white;
+	border-radius: 50%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+#biggest-bubble {
+	position: relative;
+	width: 150px;
+	height: 70px;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	background: rgba(104,104,104,0.7);
+	top: -290px;
+	left: 450px;
+	border: 4px dashed;
+	border-color: rgba(104,104,104,0.1);
+	padding-top: 10px;
+}
+
+#biggest-bubble:before {
+	content: " ";
+	position: absolute;
+	border: 4px dashed white;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+#text{
+	position: absolute;
+	color: white;
+	width: 100px;
+	text-align: center;
+	font-size: 23px;
+	font-weight: bold;
+	top: 30px;
+	left: 630px;
+}

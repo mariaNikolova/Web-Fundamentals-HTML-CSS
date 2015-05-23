@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Order</title>
+</head>
+<body>
+	<div  style="background-color:#FFC0CB; width:500px ; height:420px">
+	<div align="center" style= "padding-top:5px"><h1><i>FLIGHT ORDER</i></h1></div>
+	<table align= "center">
+	<tr>
+		<th colspan="2" align="left">
+		<i>From</i></br>
+		<select name="cityOne" style="width:200px ; height:25px">
+			<option value="value 1">Enter city</option>
+			<option value="value 1">Sofiq</option>
+			<option value="value 2">Burgas</option>
+		</select>
+		</th>
+		<th colspan="2" align="left">
+		
+		<i>To</i></br>
+		<select name="cityTwo" style="width:220px ; height:25px">
+			<option value="value 1">Enter city</option>
+			<option value="value 1">Sofiq</option>
+			<option value="value 2">Burgas</option>
+		</select>
+		
+		</th>
+	</tr>
+	<tr>
+		<td></td>
+		<th colspan="2" align="left">
+		<input type="checkbox" id="agreeCheckbox" />
+		<label for="agreeCheckbox" style="color:black"><i>Prefer directs</i></label>
+		</th>
+	</tr>	
+	<tr>
+		<th colspan="2" align="left">
+			<i>Departure Date</i></br>
+			<input name="data" type="date" style="width:200px ; height:20px">
+		</th>
+		<th colspan="2" align="left">
+		<table>
+		<tr>
+		<i>Time interval</i></br>
+			<td>
+			<input name="timeOne" type="time">
+			</td>
+			<td>
+			<input name="timeTwo" type="time">
+			</td>
+		</tr>
+		</table>
+		</th>
+	</tr>
+	<tr>
+		<th colspan="2" align="left">
+		<i>Return Date<i></br>
+		<input name="ReturnData" type="date" style="width:200px ; height:20px">
+		</th>
+		<th colspan="2" align="left">
+			<table>
+			<tr>
+			<th colspan="2" align="left">			
+			<i>Time interval</i></br>
+			<input name="time1" type="time">
+			<input name="time2" type="time">
+			</th>	
+			</tr>
+			</table>
+		</th>
+	</tr>
+	<tr>
+		<td>
+		<table>
+		<tr>
+			<th colspan="2" align="left">
+			<i>12+</i></br>
+			<input type="number" min="12" style="width:53px ; height:16px"/>
+			</th>
+			<th colspan="2" align="left">
+			<i>2-12</i></br>
+			<input type="number" min="2" max="12"/>
+			</th>
+			<th colspan="2" align="left">
+			<i>0-2</i></br>
+			<input type="number" min="0" max="2"/>
+			</th>
+		</tr>
+		</table>
+		</td>
+		<th colspan="2" align="left">
+		<i>Choose class</i></br>
+		<select name="class" style="width:220px ; height:25px">
+			<option value="value 1">Economy</option>
+			<option value="value 1">IT</option>
+			<option value="value 2">Art</option>
+		</select>
+		</th>
+	</tr>
+	<tr>
+		<td></td>
+		<th colspan="2" align="left">
+		<input type= "submit" value="Search" style=" width:220px; height:25px">
+		</th>
+	</tr>
+	</table>
+	
+	</div>
+</body>
+</html>
